@@ -49,11 +49,13 @@
   padding: 0px;
 }
 
-.list-item, .section-header {
+.list-item, 
+.section-header {
   list-style: none;
 }
 
-.input,.btn{
+.input,
+.btn {
   outline: none;
 }
 
@@ -135,7 +137,7 @@
   width: 226px;
 }
 
-.list-item >    .input[type="text"] {
+.list-item > .input[type="text"] {
   width: 226px;
 }
 
@@ -150,7 +152,7 @@
 }
 
 /* Completed */
-.tasks-list#completed-tasks .label {
+.tasks-list #completed-tasks .label {
   text-decoration: line-through;
   color: #888;
 }
@@ -160,11 +162,11 @@
   display: none;
 }
 
-.tasks-list .list-item.edit-mode .input[type=text] {
+.tasks-list .list-item .edit-mode .input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.tasks-list .list-item.edit-mode .label {
+.tasks-list .list-item .edit-mode .label {
   display: none;
 }
