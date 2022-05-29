@@ -84,6 +84,8 @@ var editTask=function(){
 
 
     var listItem=this.parentNode;
+    
+    console.log(listItem);
 
     var editInput=listItem.querySelector('.input[type=text]');
     var label=listItem.querySelector(".label");
